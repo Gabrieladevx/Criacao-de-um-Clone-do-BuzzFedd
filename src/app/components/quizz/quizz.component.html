@@ -1,0 +1,37 @@
+<div class="quizz__container">
+
+  <div class="quizz_logo">
+    <img src="assets/imgs/logo.png" alt="" srcset="">
+    <h3>{{title}}</h3>
+    <div class="progress-bar" *ngIf="!finished">
+      <div class="progress-fill" [style.width.%]="getProgress()"></div>
+    </div>
+  </div>
+
+  <div *ngIf="!finished" class="quizz_questions">
+      <h3>{{questionSelected?.question}}</h3>
+      <small>Pergunta {{questionIndex + 1}} de {{questions.length}}</small>
+  </div>
+
+  <div *ngIf="!finished" class="quizz_options">
+
+    <button
+      *ngFor="let option of questionSelected?.options; let i = index"
+      (click)="playerChoose(option.alias)"
+      class="btn-option"
+    >
+      <span class="option-emoji">{{getOptionEmojiByAlias(option.alias)}}</span>
+      {{option.name}}
+    </button>
+
+  </div>
+
+  <div *ngIf="finished" class="quizz_results">
+    <div class="result-emoji">🎉</div>
+    <h1>Seu resultado é:</h1>
+    <p>{{answerSelected}}</p>
+    <button class="restart-btn" (click)="restartQuiz()">
+      🔄 Fazer novamente
+    </button>
+  </div>
+</div>

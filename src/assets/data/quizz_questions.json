@@ -1,0 +1,89 @@
+{
+  "title":"🚀 Qual linguagem de programação combina com você?",
+  "questions":[
+    {
+      "id":1,
+      "question": "Como você prefere resolver problemas?",
+      "options":[
+        {"id": 1, "name":"Com elegância e simplicidade", "alias":"A"},
+        {"id": 2, "name":"Com flexibilidade e criatividade", "alias":"B"},
+        {"id": 3, "name":"Com performance e controle total", "alias":"C"},
+        {"id": 4, "name":"Com robustez e segurança", "alias":"D"},
+        {"id": 5, "name":"Com rapidez e praticidade", "alias":"E"}
+      ]
+    },
+    {
+      "id":2,
+      "question": "Qual tipo de projeto te empolga mais?",
+      "options":[
+        {"id": 1, "name":"Ciência de dados e IA", "alias":"A"},
+        {"id": 2, "name":"Aplicações web interativas", "alias":"B"},
+        {"id": 3, "name":"Sistemas embarcados e jogos", "alias":"C"},
+        {"id": 4, "name":"Aplicações empresariais robustas", "alias":"D"},
+        {"id": 5, "name":"Desenvolvimento mobile", "alias":"E"}
+      ]
+    },
+    {
+      "id":3,
+      "question": "Como você lida com erros no código?",
+      "options":[
+        {"id": 1, "name":"Uso ferramentas inteligentes para encontrar", "alias":"A"},
+        {"id": 2, "name":"Gosto de debugging em tempo real", "alias":"B"},
+        {"id": 3, "name":"Controlo cada bit manualmente", "alias":"C"},
+        {"id": 4, "name":"Prefiro que o compilador me avise antes", "alias":"D"},
+        {"id": 5, "name":"Frameworks que facilitam a vida", "alias":"E"}
+      ]
+    },
+    {
+      "id":4,
+      "question": "Qual seu estilo de trabalho?",
+      "options":[
+        {"id": 1, "name":"Experimentação e prototipagem rápida", "alias":"A"},
+        {"id": 2, "name":"Iteração constante e feedback", "alias":"B"},
+        {"id": 3, "name":"Planejamento detalhado e otimização", "alias":"C"},
+        {"id": 4, "name":"Estrutura sólida e padrões bem definidos", "alias":"D"},
+        {"id": 5, "name":"Desenvolvimento ágil e multiplataforma", "alias":"E"}
+      ]
+    },
+    {
+      "id":5,
+      "question": "O que mais te motiva na programação?",
+      "options":[
+        {"id": 1, "name":"Descobrir insights em dados", "alias":"A"},
+        {"id": 2, "name":"Criar experiências incríveis para usuários", "alias":"B"},
+        {"id": 3, "name":"Construir sistemas ultra-performáticos", "alias":"C"},
+        {"id": 4, "name":"Desenvolver software que dure décadas", "alias":"D"},
+        {"id": 5, "name":"Lançar apps que milhões usarão", "alias":"E"}
+      ]
+    },
+    {
+      "id":6,
+      "question": "Qual ambiente de desenvolvimento você prefere?",
+      "options":[
+        {"id": 1, "name":"Jupyter Notebooks e IDEs científicos", "alias":"A"},
+        {"id": 2, "name":"Navegador e ferramentas web", "alias":"B"},
+        {"id": 3, "name":"Editores minimalistas e terminal", "alias":"C"},
+        {"id": 4, "name":"IDEs robustas com muitas funcionalidades", "alias":"D"},
+        {"id": 5, "name":"Ferramentas visuais e drag-and-drop", "alias":"E"}
+      ]
+    },
+    {
+      "id":7,
+      "question": "Como você aprende novas tecnologias?",
+      "options":[
+        {"id": 1, "name":"Experimentando com datasets reais", "alias":"A"},
+        {"id": 2, "name":"Construindo projetos práticos e interativos", "alias":"B"},
+        {"id": 3, "name":"Lendo documentação técnica detalhada", "alias":"C"},
+        {"id": 4, "name":"Seguindo tutoriais estruturados e cursos", "alias":"D"},
+        {"id": 5, "name":"Criando apps pequenos e funcionais", "alias":"E"}
+      ]
+    }
+  ],
+  "results":{
+    "A": "🐍 Python é a sua linguagem! Você ama simplicidade, ciência de dados e resolver problemas complexos com código elegante!",
+    "B": "⚡ JavaScript é perfeito para você! Versátil, criativo e sempre evoluindo - assim como seus projetos web incríveis!",
+    "C": "⚙️ C/C++ combina com seu perfil! Você gosta de controle total, performance máxima e construir a base de tudo!",
+    "D": "☕ Java é a sua praia! Robustez, estrutura sólida e aplicações enterprise são o seu forte!",
+    "E": "📱 Kotlin/Swift é ideal para você! Moderno, prático e focado em criar experiências mobile fantásticas!"
+  }
+}
