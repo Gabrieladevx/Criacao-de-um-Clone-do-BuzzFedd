@@ -58,6 +58,7 @@ src/
 ```
 
 ## 🚀 Como Executar o Projeto
+- Acesse no link disponivél:[https://gentle-plant-0a2326c1e.1.azurestaticapps.net/)
 
 ### Pré-requisitos
 
